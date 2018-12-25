@@ -25,6 +25,7 @@ export default class QQAndroid extends Share {
                 data => {
                     if (data !== true) {
                         console.warn(data)
+                        alert(data)
                     }
                 }
             )
